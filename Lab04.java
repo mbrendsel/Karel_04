@@ -22,6 +22,58 @@ public class Lab04 {
 	}
 
      public static void main(String[] args) {
-          // TODO Your code goes here
+          Display.openWorld("maps/arena.map");
+          Display.setSize(10, 10);
+          Athlete coach = new Athlete();
+          coach.move();
+          coach.move();
+          coach.move();
+          coach.move();
+          coach.move();
+          coach.move();
+          coach.turnRight();
+          Athlete annie = new Athlete();
+          takeTheField(annie);
+          Athlete boris = new Athlete();
+          takeTheField(boris);
+          Athlete chuck = new Athlete();
+          takeTheField(chuck);
+          Athlete dougie = new Athlete();
+          takeTheField(dougie);
+          Athlete emma = new Athlete();
+          takeTheField(emma);
+          Athlete franco = new Athlete();
+          annie.move();
+          annie.move();
+          annie.move();
+          annie.turnLeft();
+          annie.move();
+          annie.move();
+          annie.turnAround();
+          boris.move();
+          boris.turnLeft();
+          boris.move();
+          boris.turnAround();
+          chuck.move();
+          chuck.move();
+          chuck.move();
+          chuck.move();
+          chuck.move();
+          chuck.turnLeft();
+          chuck.move();
+          chuck.turnAround();
+          dougie.move();
+          dougie.move();
+          dougie.move();
+          dougie.move();
+          dougie.turnRight();
+          emma.move();
+          emma.move();
+          emma.move();
+          emma.turnRight();
+          takeTheField(franco);
+          franco.move();
+          franco.move();
+          franco.turnRight();
      }
 }
