@@ -2,12 +2,11 @@
 *
 * Creates a group of Athletes and directs them to positions on the field
 *
-* @author <Your Name here>  // replace <...> with your name
-* @version <date/of/completion> // replace <...> with the date
+* @author Kent Collins
+* @version 11 November, 2014
 */
 
 import edu.fcps.karel2.Display;
-import edu.fcps.karel2.Robot;
 
 public class Lab04 {
 	
